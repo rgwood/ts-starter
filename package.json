@@ -1,0 +1,26 @@
+{
+  "name": "ts-starter",
+  "version": "1.0.0",
+  "description": "Starter template for TypeScript dev with a short edit-compile-debug cycle",
+  "main": "dev-runner.js",
+  "scripts": {
+    "start": "ts-node src/index.ts",
+    "watch": "nodemon",
+    "build": "tsc",
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Reilly Wood",
+  "license": "MIT",
+  "dependencies": {
+    "chai": "^4.2.0",
+    "lodash": "^4.17.15"
+  },
+  "devDependencies": {
+    "@types/chai": "^4.2.5",
+    "@types/lodash": "^4.14.149",
+    "@types/node": "^12.12.11",
+    "nodemon": "^2.0.0",
+    "ts-node": "^8.5.2",
+    "typescript": "^3.7.2"
+  }
+}
